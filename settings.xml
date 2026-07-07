@@ -6,8 +6,8 @@
   <property name="pressureMultiplier" value="2"/>
   <property name="zoomGesturesEnabled" value="false"/>
   <property name="selectedToolbar" value="Right hand Note Taking Copy"/>
-  <property name="lastSavePath" value="/home/joaob/Downloads"/>
-  <property name="lastOpenPath" value="/home/joaob/IME-USP--Mathematics/Templates"/>
+  <property name="lastSavePath" value="/home/joaob/IME-USP--Mathematics/1-Semestre/MAT0112/Anotacoes"/>
+  <property name="lastOpenPath" value="/home/joaob/IME-USP--Mathematics/1-Semestre/MAT0112/Anotacoes"/>
   <property name="lastImagePath" value="/home/joaob/Downloads"/>
   <property name="edgePanSpeed" value="20"/>
   <property name="edgePanMaxMult" value="4.5"/>
@@ -244,7 +244,7 @@
       <attribute name="size" type="string" value="THIN"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="fff8f8f2"/>
+      <attribute name="color" type="hex" value="ffbd93f9"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="127"/>
