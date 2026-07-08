@@ -90,7 +90,7 @@
   <property name="recolor.dark" value="4281349190"/>
   <property name="recolor.light" value="4291219701"/>
   <property name="selectionBorderColor" value="4294336849"/>
-  <property name="backgroundColor" value="4282729797"/>
+  <property name="backgroundColor" value="4278190080"/>
   <property name="selectionMarkerColor" value="4285702095"/>
   <property name="activeSelectionColor" value="4286381056"/>
   <property name="touchZoomStartThreshold" value="0"/>
@@ -244,7 +244,7 @@
       <attribute name="size" type="string" value="THIN"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="ffbd93f9"/>
+      <attribute name="color" type="hex" value="fff8f8f2"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="127"/>
