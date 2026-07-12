@@ -6,8 +6,8 @@
   <property name="pressureMultiplier" value="2"/>
   <property name="zoomGesturesEnabled" value="false"/>
   <property name="selectedToolbar" value="Right hand Note Taking Copy"/>
-  <property name="lastSavePath" value="/home/joaob/IME-USP--Mathematics/1-Semestre/MAE0121"/>
-  <property name="lastOpenPath" value="/home/joaob/Mathematics-Books/Analise-Real"/>
+  <property name="lastSavePath" value="/home/joaob/Study-notes/Calculo-1"/>
+  <property name="lastOpenPath" value="/home/joaob/Study-notes/Calculo-1"/>
   <property name="lastImagePath" value="/home/joaob/Downloads"/>
   <property name="edgePanSpeed" value="20"/>
   <property name="edgePanMaxMult" value="4.5"/>
@@ -101,7 +101,7 @@
   <property name="preloadPagesAfter" value="5"/>
   <property name="eagerPageCleanup" value="true"/>
   <!--Config for new pages-->
-  <property name="pageTemplate" value="xoj/template&#10;copyLastPageSize=true&#10;copyLastPageSettings=true&#10;size=396.844000x680.304000&#10;backgroundType=graph&#10;backgroundColor=#000000&#10;"/>
+  <property name="pageTemplate" value="xoj/template&#10;copyLastPageSize=true&#10;copyLastPageSettings=true&#10;size=396.844000x595.275591&#10;backgroundType=graph&#10;backgroundColor=#000000&#10;"/>
   <property name="sizeUnit" value="cm"/>
   <property name="audioFolder" value=""/>
   <property name="audioInputDevice" value="-1"/>
@@ -135,7 +135,7 @@
   <property name="stabilizerMass" value="5"/>
   <property name="stabilizerCuspDetection" value="true"/>
   <property name="stabilizerFinalizeStroke" value="true"/>
-  <property name="colorPalette" value="/home/joaob/.config/xournalpp/palettes/Dracula.gpl"/>
+  <property name="colorPalette" value="/usr/share/xournalpp/palettes/xournalpp.gpl"/>
   <property name="latexSettings.autoCheckDependencies" value="true"/>
   <property name="latexSettings.defaultText" value=""/>
   <property name="latexSettings.globalTemplatePath" value="/usr/share/xournalpp/resources/default_template.tex"/>
@@ -193,6 +193,14 @@
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="0"/>
     </data>
+    <data name="OpenTabletDriver Virtual Artist Tablet">
+      <attribute name="deviceClass" type="int" value="2"/>
+      <attribute name="deviceSource" type="int" value="1"/>
+    </data>
+    <data name="Wacom One by Wacom S Pen">
+      <attribute name="deviceClass" type="int" value="2"/>
+      <attribute name="deviceSource" type="int" value="1"/>
+    </data>
     <data name="Wacom One by Wacom S Pen Pen (0)">
       <attribute name="deviceClass" type="int" value="2"/>
       <attribute name="deviceSource" type="int" value="1"/>
@@ -200,6 +208,10 @@
     <data name="Wacom One by Wacom S Pen stylus">
       <attribute name="deviceClass" type="int" value="2"/>
       <attribute name="deviceSource" type="int" value="1"/>
+    </data>
+    <data name="Wayland Pointer">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="0"/>
     </data>
   </data>
   <data name="lastUsedPageBgColor">
