@@ -138,7 +138,7 @@
   <property name="colorPalette" value="/usr/share/xournalpp/palettes/xournalpp.gpl"/>
   <property name="latexSettings.autoCheckDependencies" value="true"/>
   <property name="latexSettings.defaultText" value="\lim_{x \to p} (\frac{x^2-1}{x-1})"/>
-  <property name="latexSettings.globalTemplatePath" value="/usr/share/xournalpp/resources/default_template.tex"/>
+  <property name="latexSettings.globalTemplatePath" value="/usr/share/xournalpp/resources/legacy_template.tex"/>
   <property name="latexSettings.genCmd" value="pdflatex -halt-on-error -interaction=nonstopmode '{}'"/>
   <property name="latexSettings.sourceViewThemeId" value="oblivion"/>
   <property name="latexSettings.editorFont" value="Monospace 12"/>
