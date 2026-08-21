@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="2"/>
   <property name="zoomGesturesEnabled" value="false"/>
   <property name="selectedToolbar" value="Right hand Note Taking Copy"/>
-  <property name="lastSavePath" value="/home/joaob/Mathematics/Areas/Linear-Algebra/Study-Notes"/>
+  <property name="lastSavePath" value="/home/joaob/Mathematics/Areas/Elementary-Number-Theory"/>
   <property name="lastOpenPath" value="/home/joaob/Mathematics/Areas/Linear-Algebra/Study-Notes"/>
   <property name="lastImagePath" value="/home/joaob/Downloads"/>
   <property name="edgePanSpeed" value="20"/>
@@ -14,7 +14,7 @@
   <property name="zoomStep" value="10"/>
   <property name="zoomStepScroll" value="5"/>
   <property name="displayDpi" value="-1"/>
-  <property name="mainWndWidth" value="1170"/>
+  <property name="mainWndWidth" value="1237"/>
   <property name="mainWndHeight" value="1056"/>
   <property name="maximized" value="false"/>
   <property name="showToolbar" value="true"/>
