@@ -256,7 +256,7 @@
       <attribute name="size" type="string" value="VERY_FINE"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="ffffffff"/>
+      <attribute name="color" type="hex" value="ff9bdb4d"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="71"/>
