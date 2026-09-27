@@ -7,7 +7,7 @@
   <property name="zoomGesturesEnabled" value="false"/>
   <property name="selectedToolbar" value="Right hand Note Taking Copy"/>
   <property name="lastSavePath" value="/home/joaob/Mathematics/Areas/Real Analysis"/>
-  <property name="lastOpenPath" value="/home/joaob"/>
+  <property name="lastOpenPath" value="/home/joaob/Mathematics/Areas/Real Analysis"/>
   <property name="lastImagePath" value="/home/joaob/Downloads"/>
   <property name="edgePanSpeed" value="20"/>
   <property name="edgePanMaxMult" value="4.5"/>
@@ -50,7 +50,7 @@
   <!--The icon theme, allowed values are "iconsColor", "iconsLucide"-->
   <property name="iconTheme" value="iconsLucide"/>
   <!--Dark/light mode, allowed values are "useSystem", "forceLight", "forceDark"-->
-  <property name="themeVariant" value="useSystem"/>
+  <property name="themeVariant" value="forceDark"/>
   <property name="highlightPosition" value="true"/>
   <property name="cursorHighlightColor" value="2566914048"/>
   <property name="cursorHighlightBorderColor" value="2582576896"/>
@@ -90,7 +90,7 @@
   <property name="recolor.dark" value="4281349190"/>
   <property name="recolor.light" value="4291219701"/>
   <property name="selectionBorderColor" value="4294336849"/>
-  <property name="backgroundColor" value="4292795866"/>
+  <property name="backgroundColor" value="4278190080"/>
   <property name="selectionMarkerColor" value="4285702095"/>
   <property name="activeSelectionColor" value="4286381056"/>
   <property name="touchZoomStartThreshold" value="0"/>
@@ -101,7 +101,7 @@
   <property name="preloadPagesAfter" value="5"/>
   <property name="eagerPageCleanup" value="true"/>
   <!--Config for new pages-->
-  <property name="pageTemplate" value="xoj/template&#10;copyLastPageSize=true&#10;copyLastPageSettings=true&#10;size=566.920000x283.460000&#10;backgroundType=plain&#10;backgroundColor=#000000&#10;"/>
+  <property name="pageTemplate" value="xoj/template&#10;copyLastPageSize=true&#10;copyLastPageSettings=true&#10;size=396.844000x680.304000&#10;backgroundType=graph&#10;backgroundColor=#000000&#10;"/>
   <property name="sizeUnit" value="cm"/>
   <property name="audioFolder" value=""/>
   <property name="audioInputDevice" value="-1"/>
@@ -227,7 +227,7 @@
     <attribute name="count" type="int" value="9"/>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="pen"/>
+    <attribute name="current" type="string" value="hand"/>
     <data name="drawArrow"/>
     <data name="drawCoordinateSystem"/>
     <data name="drawDoubleArrow"/>
@@ -256,11 +256,11 @@
       <attribute name="size" type="string" value="VERY_FINE"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="ffffffff"/>
+      <attribute name="color" type="hex" value="ff000000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="71"/>
-      <attribute name="size" type="string" value="VERY_FINE"/>
+      <attribute name="size" type="string" value="THIN"/>
       <attribute name="style" type="string" value="plain"/>
     </data>
     <data name="playObject"/>
