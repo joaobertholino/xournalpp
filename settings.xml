@@ -256,7 +256,7 @@
       <attribute name="size" type="string" value="MEDIUM"/>
     </data>
     <data name="laserPointerPen">
-      <attribute name="color" type="hex" value="ffcd9ef7"/>
+      <attribute name="color" type="hex" value="ffed5353"/>
       <attribute name="size" type="string" value="VERY_FINE"/>
     </data>
     <data name="pen">
