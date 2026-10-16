@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="2"/>
   <property name="zoomGesturesEnabled" value="false"/>
   <property name="selectedToolbar" value="Right hand Note Taking Copy"/>
-  <property name="lastSavePath" value="/home/joaob/.config/xournalpp"/>
+  <property name="lastSavePath" value="/home/joaob"/>
   <property name="lastOpenPath" value="/home/joaob"/>
   <property name="lastImagePath" value="/home/joaob/Downloads"/>
   <property name="edgePanSpeed" value="20"/>
@@ -260,7 +260,7 @@
       <attribute name="size" type="string" value="VERY_FINE"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="ffcd9ef7"/>
+      <attribute name="color" type="hex" value="ffffa154"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="255"/>
