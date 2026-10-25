@@ -6,7 +6,7 @@
   <property name="pressureMultiplier" value="2"/>
   <property name="zoomGesturesEnabled" value="false"/>
   <property name="selectedToolbar" value="Right hand Note Taking Copy"/>
-  <property name="lastSavePath" value="/home/joaob"/>
+  <property name="lastSavePath" value="/home/joaob/.config/xournalpp"/>
   <property name="lastOpenPath" value="/home/joaob"/>
   <property name="lastImagePath" value="/home/joaob/Downloads"/>
   <property name="edgePanSpeed" value="20"/>
@@ -14,9 +14,9 @@
   <property name="zoomStep" value="10"/>
   <property name="zoomStepScroll" value="5"/>
   <property name="displayDpi" value="-1"/>
-  <property name="mainWndWidth" value="1918"/>
-  <property name="mainWndHeight" value="1056"/>
-  <property name="maximized" value="true"/>
+  <property name="mainWndWidth" value="1078"/>
+  <property name="mainWndHeight" value="1898"/>
+  <property name="maximized" value="false"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="false"/>
   <property name="sidebarWidth" value="50"/>
@@ -73,10 +73,10 @@
   <property name="addVerticalSpace" value="false"/>
   <property name="addVerticalSpaceAmountAbove" value="150"/>
   <property name="addVerticalSpaceAmountBelow" value="150"/>
-  <property name="unlimitedScrolling" value="true"/>
+  <property name="unlimitedScrolling" value="false"/>
   <property name="drawDirModsEnabled" value="false"/>
   <property name="drawDirModsRadius" value="50"/>
-  <property name="snapRotation" value="true"/>
+  <property name="snapRotation" value="false"/>
   <property name="snapRotationTolerance" value="0.3"/>
   <property name="snapGrid" value="false"/>
   <property name="snapGridTolerance" value="0.5"/>
@@ -122,7 +122,7 @@
   <property name="numIgnoredStylusEvents" value="0"/>
   <property name="inputSystemTPCButton" value="false"/>
   <property name="inputSystemDrawOutsideWindow" value="true"/>
-  <property name="preferredLocale" value=""/>
+  <property name="preferredLocale" value="pt_BR"/>
   <property name="useSpacesForTab" value="false"/>
   <property name="numberOfSpacesForTab" value="4"/>
   <property name="laserPointerFadeOutTime" value="500"/>
@@ -162,13 +162,13 @@
       <attribute name="tool" type="string" value="eraser"/>
     </data>
     <data name="left">
-      <attribute name="tool" type="string" value="hand"/>
+      <attribute name="tool" type="string" value="none"/>
     </data>
     <data name="middle">
-      <attribute name="tool" type="string" value="none"/>
+      <attribute name="tool" type="string" value="hand"/>
     </data>
     <data name="right">
-      <attribute name="tool" type="string" value="none"/>
+      <attribute name="tool" type="string" value="hand"/>
     </data>
     <data name="stylus">
       <attribute name="eraserMode" type="string" value="deleteStroke"/>
@@ -217,6 +217,18 @@
       <attribute name="deviceClass" type="int" value="1"/>
       <attribute name="deviceSource" type="int" value="0"/>
     </data>
+    <data name="xwayland-pointer:1">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="0"/>
+    </data>
+    <data name="xwayland-relative-pointer:1">
+      <attribute name="deviceClass" type="int" value="1"/>
+      <attribute name="deviceSource" type="int" value="0"/>
+    </data>
+    <data name="xwayland-tablet stylus:1">
+      <attribute name="deviceClass" type="int" value="2"/>
+      <attribute name="deviceSource" type="int" value="1"/>
+    </data>
   </data>
   <data name="lastUsedPageBgColor">
     <attribute name="color00" type="hex" value="ff282a36"/>
@@ -231,7 +243,7 @@
     <attribute name="count" type="int" value="9"/>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="hand"/>
+    <attribute name="current" type="string" value="pen"/>
     <data name="drawArrow"/>
     <data name="drawCoordinateSystem"/>
     <data name="drawDoubleArrow"/>
@@ -256,11 +268,11 @@
       <attribute name="size" type="string" value="MEDIUM"/>
     </data>
     <data name="laserPointerPen">
-      <attribute name="color" type="hex" value="ffed5353"/>
-      <attribute name="size" type="string" value="VERY_FINE"/>
+      <attribute name="color" type="hex" value="ffff0000"/>
+      <attribute name="size" type="string" value="MEDIUM"/>
     </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="ffffe16b"/>
+      <attribute name="color" type="hex" value="ffffff"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="255"/>
