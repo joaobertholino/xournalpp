@@ -1,6 +1,6 @@
 # Xournal++ — configuração pessoal no Gentoo
 
-Submódulo de [dotfiles](https://github.com/joaobertholino/dotfiles), instalado em `~/.config/xournalpp`. Contém preferências, barras de ferramentas, paletas e modelos; o aplicativo Xournal++ é instalado separadamente. Conferido em **25/10/2026**.
+Submódulo de [dotfiles](https://github.com/joaobertholino/dotfiles), instalado em `~/.config/xournalpp`. Contém preferências, barras de ferramentas, paletas e modelos; o aplicativo Xournal++ é instalado separadamente. Integração com a sessão atualizada em **26/10/2026**.
 
 ## Arquivos
 
@@ -46,6 +46,10 @@ As URLs SSH exigem autenticação no GitHub. Não copie o arquivo `.git` de um s
 ## Particularidades da máquina Gentoo
 
 O launcher local `/usr/local/bin/xournalpp` utiliza `/usr/bin/xournalpp` com GTK nativo e `GDK_BACKEND=x11` via XWayland. Ele também limpa variáveis gráficas específicas da pilha Nix para evitar conflitos. Esse wrapper é externo ao repositório; não é requisito universal do Xournal++.
+
+O Xournal++ é aberto sob demanda, pelo menu ou por `Super+Alt+X`; não é um daemon de início da sessão. Waybar, Dunst, Hyprlauncher, indicador de rede, papel de parede e agente Polkit agora são serviços de usuário vinculados a `hyprland-session.target`. Essa mudança não cria uma unidade para o Xournal++ nem altera suas preferências.
+
+O wrapper nativo do Xournal++ continua necessário nesta instalação mista Gentoo/Nix. As unidades, os wrappers e o helper de sessão são locais e externos a este submódulo; consulte o [README principal](https://github.com/joaobertholino/dotfiles#sessão-notificações-e-calendário).
 
 Para inserir LaTeX, o sistema precisa de `pdflatex` e dos arquivos de suporte indicados pelo aplicativo. A configuração usa o template `/usr/share/xournalpp/resources/legacy_template.tex`, que precisa existir na instalação de destino.
 
