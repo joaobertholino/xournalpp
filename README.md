@@ -17,6 +17,7 @@ Submódulo de [dotfiles](https://github.com/joaobertholino/dotfiles), instalado 
 
 - Interface em português brasileiro, tema escuro forçado e ícones Lucide.
 - Barra selecionada: `Right hand Note Taking Copy`.
+- Perfil adicional `Personal + Layers`: conserva a barra pessoal e acrescenta na parte inferior o seletor de camadas e os botões de camada anterior, próxima e superior. Após reabrir o aplicativo, selecione-o em **Exibir → Barras de ferramentas**.
 - Pressão da caneta habilitada; caneta branca `VERY_FINE`, marca-texto roxo e borracha `VERY_FINE`.
 - Autosave habilitado, com `autosaveTimeout=1` no arquivo de preferências.
 - Áudio desativado, rolagem ilimitada desativada e encaixe de rotação desativado.
