@@ -76,3 +76,16 @@ git -C "$HOME/.config/xournalpp" diff
 ```
 
 Para manutenção manual, publique primeiro as alterações deste repositório e depois atualize o gitlink no `dotfiles`. Antes de executar `git pull --ff-only`, salve as alterações do aplicativo e confira se está em uma branch. Para recuperação, feche o Xournal++ e restaure um backup ou uma versão conhecida dos arquivos.
+
+## Plugins adicionais
+
+- **ImageTranscription / Inkpath**: instalado em `plugins/ImageTranscription/`,
+  compilado localmente para Lua 5.4 e OpenCV do Portage. A origem e revisão estão
+  em `plugins/ImageTranscription/UPSTREAM`. Use **Plugin > Transcribe Image**
+  ou `Ctrl+Alt+T` para converter uma imagem em traços editáveis. Não é OCR de texto.
+- **ToggleGrid**: incluído no Xournal++ e habilitado nas preferências. Use
+  **Plugin > Toggle Grid Paper** para alternar entre papel simples e quadriculado
+  com encaixe na grade.
+
+A ativação dos plugins requer reabrir o Xournal++. A dependência
+`media-libs/opencv` está selecionada no Portage para evitar remoção por depclean.

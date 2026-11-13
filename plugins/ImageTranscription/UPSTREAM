@@ -1,0 +1,5 @@
+Source: https://github.com/WillNilges/inkpath
+Commit: 44ddc1829d7a995be6d27275d1af12403957769d
+Built locally against Gentoo OpenCV 4.12.0 and Lua 5.4.8.
+Build: cmake -DCMAKE_BUILD_TYPE=Release; cmake --build . --target inkpath -j2
+Local CMake change: FIND_PACKAGE(OpenCV REQUIRED COMPONENTS core imgproc imgcodecs calib3d)
